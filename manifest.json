@@ -1,0 +1,23 @@
+{
+
+	"manifest_version": 2,
+	"name": "Internet HP",
+	"version": "1.0",
+	
+	"description": "Extension providing insight into the overall Internet Health :) It also uses the Google Safe Browsing API to check user's active URLs for potential malware.",
+	
+	"icons": {
+		"48":"icons/safenet.png"
+	 },
+	 
+	"permissions":[
+		"<all_urls>",
+		"tabs"
+	],
+	
+	"browser_action": {
+		"default_icon": "icons/safenet.png",
+		"default_title": "Internet HP",
+		"default_popup": "popup/safenet_popup.html"
+	}
+}
